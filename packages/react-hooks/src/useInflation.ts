@@ -3,6 +3,7 @@
 
 import BN from 'bn.js';
 import { useEffect, useState } from 'react';
+
 import { KUSAMA_GENESIS, POLKADOT_GENESIS } from '@polkadot/apps-config';
 
 import { useApi } from './useApi';
